@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[281],{635:function(t,n,s){"use strict";s.r(n);var e=s(8),o=Object(e.a)({},(function(){var t=this._self._c;return t("ContentSlotsDistributor",{attrs:{"slot-key":this.$parent.slotKey}},[t("p",[this._v("21世纪缺少的不是知识，而是结构化的知识。")])])}),[],!1,null,null,null);n.default=o.exports}}]);
