@@ -1,5 +1,0 @@
-User-agent: *
-Disallow: /dfaft
-Disallow: /pick
-Sitemap: http:/terwergreen.com/sitemap.xml
-Host: terwergreen.com
