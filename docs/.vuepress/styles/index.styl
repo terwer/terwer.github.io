@@ -70,3 +70,11 @@ body .vuepress-plugin-demo-block__wrapper
   .highlight
     color: $accentColor
     font-weight: bold
+
+// 自定义附加样式
+// .theme-code-group{
+//   padding-bottom: unset !important;
+// }
+div[class*="language-"].line-numbers-mode::after{
+  border-radius: unset !important;
+}
