@@ -11,7 +11,7 @@ git pull --force
 
 now=`date +"%Y-%m-%d %T"`
 if [ -z "$GITHUB_TOKEN" ]; then
-  msg="update blog at ${now}"
+  msg="Update blog at ${now}"
   githubUrl=git@github.com:terwer/terwer.github.io.git
 else
   msg="来自github actions的自动部署=>${now}"
