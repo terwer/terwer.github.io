@@ -10,7 +10,7 @@ set -e
 git pull --force
 
 if [ -z "$GITHUB_TOKEN" ]; then
-  msg='deploy'
+  msg='update blog=>${now}'
   githubUrl=git@github.com:terwer/terwer.github.io.git
 else
   now=`date +"%Y-%m-%d %T"`
