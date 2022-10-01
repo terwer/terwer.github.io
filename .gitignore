@@ -24,3 +24,5 @@ urls.txt
 # Jetbrains
 .idea/
 .vercel
+
+docs/_posts/temp.md
