@@ -64,8 +64,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         text: '更多',
         link: '/more/',
         items: [
-          { text: '草稿箱', link: '/draft/' },
-          { text: '待整理', link: '/pick/' },
           { text: '友情链接', link: '/friends/' }
         ],
       },
