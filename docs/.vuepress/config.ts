@@ -39,16 +39,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: '专题目录',
-        link: '/leaf/'
-      },
-      {
         text: '文章索引',
         link: '/archives/',
         items: [
-          { text: '分类', link: '/categories/' },
-          { text: '标签', link: '/tags/' },
-          { text: '归档', link: '/archives/' },
+          { text: '文章分类', link: '/categories/' },
+          { text: '文章标签', link: '/tags/' },
+          { text: '文章归档', link: '/archives/' },
+          { text: 'UOS专区', link: '/uos/' },
         ],
       },
       {
@@ -56,17 +53,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         link: '/ing/'
       },
       {
-        text: 'UOS专区',
-        link: '/uos/'
+        text: '友情链接', link: '/friends/'
       },
       { text: '关于我', link: '/about/' },
-      {
-        text: '更多',
-        link: '/more/',
-        items: [
-          { text: '友情链接', link: '/friends/' }
-        ],
-      },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
     logo: '/img/logo.png', // 导航栏logo
@@ -154,7 +143,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     footer: {
       createYear: 2011, // 博客创建年份
       copyrightInfo:
-          `Terwer Green | 
+        `Terwer Green | 
         <a href="https://github.com/terwer/terwer.github.io/blob/master/LICENSE" target="_blank">MIT License</a> |
         <a href="https://beian.miit.gov.cn/" target="_blank">粤ICP备2022020721号-1</a> | 
         <a href="https://tongji.baidu.com/web/10000454757/overview/index?siteId=17924431" target="_blank"><img src="https://tongji.baidu.com/sc-web/image/icon/13.gif" style="vertical-align: middle;height: 14px;margin-top: -1px;"/> 百度统计</a>`
