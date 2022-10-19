@@ -56,6 +56,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         text: '友情链接', link: '/friends/'
       },
+      {
+        text: '给我留言', link: 'https://blog.terwergreen.com/guestbook.html'
+      },
       { text: '关于我', link: '/about/' },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
