@@ -50,6 +50,13 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
+        text: '经典书籍',
+        link: '#',
+        items: [
+          { text: '《C程序设计语言》', link: '/post/c-language-basic-structure-1my3ua.html' },
+        ],
+      },
+      {
         text: '心情随笔',
         link: '/ing/'
       },
