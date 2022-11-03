@@ -49,7 +49,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '文章归档', link: '/archives/' },
           { text: 'UOS专区', link: '/uos/' },
         ],
-      },
+      }, 
       {
         text: '经典书籍',
         link: '#',
