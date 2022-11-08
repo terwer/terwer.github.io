@@ -37,6 +37,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Struts2', link: '/backend/#Struts2' },
           { text: 'Hibernate', link: '/backend/#Hibernate' },
           { text: 'MyBatis', link: '/backend/#MyBatis' },
+          { text: 'Webservice/JAX-WS', link: '/backend/#Webservice' },
           { text: '分布式', link: '/backend/#分布式' },
         ],
       },
