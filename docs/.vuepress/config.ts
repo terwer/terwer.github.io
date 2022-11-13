@@ -38,6 +38,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: 'Hibernate', link: '/backend/#Hibernate' },
           { text: 'MyBatis', link: '/backend/#MyBatis' },
           { text: 'JAX-WS', link: '/backend/#Webservice' },
+          { text: '并发', link: '/post/java-concurrent-knowledge-system-1txcn6.html' },
           { text: '分布式', link: '/backend/#分布式' },
         ],
       },
