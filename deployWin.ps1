@@ -6,10 +6,9 @@ git pull --force
 
 $today=Get-Date
 $msg="Update blog at $today"
-$githubUrl=git@github.com:terwer/terwer.github.io.git
 
 git add -A
 git commit -m "${msg}"
-git push $githubUrl
+git push
 
 Write-Output "publish finished. --form powershell"
