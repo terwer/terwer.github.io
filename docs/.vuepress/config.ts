@@ -325,8 +325,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 choosen: 'artalk',
                 options: {
                     /* 公共属性 */
-                    id: '<%- frontmatter.permalink %>', // 页面的唯一标识,长度不能超过50
-                    title: '「评论」<%- frontmatter.title %>', // 评论的标题
+                    pageKey:   '', // 固定链接 (留空自动获取)
+                    pageTitle: '', // 页面标题 (留空自动获取)
                     /* artalk专属属性 */
                     server: 'https://talk.terwergreen.com:8003',
                     site: '远方的灯塔',
