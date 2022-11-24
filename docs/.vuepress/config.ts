@@ -49,9 +49,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           { text: '文章分类', link: '/categories/' },
           { text: '文章标签', link: '/tags/' },
           { text: '文章归档', link: '/archives/' },
-          { text: 'UOS专区', link: '/uos/' },
         ],
-      }, 
+      },
       {
         text: '经典书籍',
         link: '#',
@@ -214,7 +213,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     ]
   ],
 
-
   // 插件配置
   plugins: <UserPlugins>[
     [
@@ -318,6 +316,23 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     //     },
     //   },
     // ],
+    [
+      // 使用本地插件
+      // resolve(__dirname, '../../plugins/vdoing-comment'), // 评论
+      // 使用npm仓库，待发布
+      'vuepress-plugin-vdoing-comment', // 评论
+      {
+        choosen: 'artalk',
+        options: {
+          /* 公共属性 */
+          id: '<%- (frontmatter.permalink || frontmatter.to.path).slice(-16) %>', // 页面的唯一标识,长度不能超过50
+          title: '「评论」<%- frontmatter.title %>', // 评论的标题
+          /* artalk专属属性 */
+          server: 'https://talk.terwergreen.com:8003',
+          site: '远方的灯塔',
+        }
+      }
+    ],
     [
       '@vuepress/last-updated', // "上次更新"时间格式
       {

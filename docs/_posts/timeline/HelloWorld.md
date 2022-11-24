@@ -17,6 +17,10 @@ author:
 <!-- more -->
 # Hello World
 
+## Artalk评论
+
+请查看本页面底部的评论框，体验效果。
+
 ## Markdown数学公式
 
 - 代码
