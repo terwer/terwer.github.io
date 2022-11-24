@@ -326,6 +326,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
                 options: {
                     server: 'https://talk.terwergreen.com:8003',
                     site: '远方的灯塔',
+                    disableEmotion: false,
+                    disablePicture: true,
+                    disablePreview: false
                 }
             }
         ],
