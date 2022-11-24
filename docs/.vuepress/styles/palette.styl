@@ -10,30 +10,31 @@ $accentColor = #42b983
 // $activeColor = #ff5722
 // $arrowBgColor = #ccc
 
-// // 布局
-// $navbarHeight = 3.6rem
-// $sidebarWidth = 18rem
-// $contentWidth = 860px
-// $homePageWidth = 1100px
-// $rightMenuWidth = 230px // 右侧菜单
+// 布局
 $navbarHeight = 3.6rem
 $sidebarWidth = 18rem
-$contentWidth = unset
-$homePageWidth = unset
+$contentWidth = 860px
+$homePageWidth = 1100px
 $rightMenuWidth = 230px // 右侧菜单
+//$navbarHeight = 3.6rem
+//$sidebarWidth = 18rem
+//$contentWidth = unset
+//$homePageWidth = unset
+//$rightMenuWidth = 230px // 右侧菜单
 
 // // 代码块
 // $lineNumbersWrapperWidth = 2.5rem
 
 // // 浅色模式
 .theme-mode-light
-//   --bodyBg: #f4f4f4
-//   --mainBg: rgba(255,255,255,1)
-//   --sidebarBg: rgba(255,255,255,.8)
-//   --blurBg: rgba(255,255,255,.9)
-//   --textColor: #004050
-//   --textLightenColor: #0085AD
+  //   --bodyBg: #f4f4f4
+  //   --mainBg: rgba(255,255,255,1)
+  //   --sidebarBg: rgba(255,255,255,.8)
+  //   --blurBg: rgba(255,255,255,.9)
+  //   --textColor: #004050
+  //   --textLightenColor: #0085AD
   --textLightenColor: #42b983
+
 //   --borderColor: rgba(0,0,0,.15)
 //   // 代码块浅色主题
 //   --codeBg: #f6f6f6
@@ -69,3 +70,27 @@ $rightMenuWidth = 230px // 右侧菜单
 //   --codeBg: #282c34
 //   --codeColor: #fff
 //   codeThemeDark()
+
+/* 自定义样式 */
+.navbar .site-name {
+  max-width: 275px;
+  overflow: hidden;
+  text-overflow: inherit;
+  max-height: 40px;
+}
+
+.theme-mode-dark #vuepress-plugin-vdoing-comment {
+  --at-color-bg: --bodyBg;
+  color: #ffffff;
+  --at-color-font: #ffffff;
+  --at-color-bg-transl: --bodyBg;
+  --at-color-bg-grey: #373a40
+}
+
+.theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher > span:hover, .atk-editor-plug-emoticons > .atk-grp-switcher > span.active {
+  background: var(--at-color-bg-grey);
+}
+
+.theme-mode-dark #vuepress-plugin-vdoing-comment .atk-editor-plug-emoticons > .atk-grp-switcher {
+  background: var(--at-color-bg-grey)
+}
