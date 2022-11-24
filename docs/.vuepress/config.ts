@@ -324,10 +324,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
             {
                 choosen: 'artalk',
                 options: {
-                    /* 公共属性 */
-                    pageKey:   '', // 固定链接 (留空自动获取)
-                    pageTitle: '', // 页面标题 (留空自动获取)
-                    /* artalk专属属性 */
                     server: 'https://talk.terwergreen.com:8003',
                     site: '远方的灯塔',
                 }
