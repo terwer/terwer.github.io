@@ -2,7 +2,9 @@
 layout: post
 title: "Post content styles"
 tagline: "This post demonstrates post content styles"
-categories: junk
+categories:
+ - junk
+ - junk2
 image: /thumbnail-mobile.png
 author: "Bart Simpson"
 meta: "Springfield"
