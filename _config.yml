@@ -1,5 +1,5 @@
-title: Cayman Blog Theme
-description: Cayman Blog Theme is a clean, responsive blogging theme for Jekyll and Gitlab/GitHub Pages.
+title: 远方的灯塔
+description: 专注于服务端技术分享
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
@@ -16,10 +16,10 @@ cayman-blog:
 theme: # leave it empty
 
 # social
-author: lorepirri
-image: /thumbnail-jumbo.png
+author: terwer
+image: /thumbnail-terwer.png
 twitter:
-  username: lorepirri
+  username: youweitang
 
 plugins:
   - jekyll-target-blank

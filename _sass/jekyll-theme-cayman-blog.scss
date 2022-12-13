@@ -113,16 +113,27 @@ a {
   background-image: linear-gradient(120deg, $header-bg-color-secondary, $header-bg-color);
 
   @include large {
-    padding: 5rem 6rem;
+    // padding: 5rem 6rem;
+    // padding: 2rem 1rem;
+    padding: 0;
   }
 
   @include medium {
-    padding: 3rem 4rem;
+    // padding: 3rem 4rem;
+    // padding: 2rem 1rem;
+    padding: 0;
   }
 
   @include small {
-    padding: 2rem 1rem;
+    // padding: 2rem 1rem;
+    padding: 0;
   }
+}
+
+.page-box{
+  max-width: 64rem;
+  padding: 3rem 6rem;
+  margin: 0 auto;text-align: left;
 }
 
 .project-name {
