@@ -344,16 +344,16 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     // ],
     [
       // 使用本地插件
-      resolve(__dirname, '../../../vuepress-plugin-vdoing-comment'), // 评论
-      // 使用npm仓库，待发布
-      // "vuepress-plugin-vdoing-comment", // 评论
+      // resolve(__dirname, '../../../vuepress-plugin-vdoing-comment'), // 评论
+      // 使用npm仓库
+      "vuepress-plugin-vdoing-comment", // 评论
       {
         choosen: "artalk",
         options: {
           server: "https://talk.terwergreen.com:8003",
           site: "远方的灯塔",
           disableEmotion: false,
-          disablePicture: false,
+          disablePicture: true,
           disablePreview: false,
         },
       },
