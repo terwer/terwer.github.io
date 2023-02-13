@@ -27,3 +27,5 @@ urls.txt
 
 docs/_posts/temp.md
 .obsidian/
+*bun
+/docs/.vuepress/config.bundled_*.mjs
