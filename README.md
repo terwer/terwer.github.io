@@ -16,7 +16,7 @@ pnpm dev
 ## 发布
 
 ```bash
-pnpm deploy
+./deploy.sh
 ```
 
 ## 目录说明
