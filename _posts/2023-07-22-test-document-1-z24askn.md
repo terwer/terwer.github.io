@@ -1,17 +1,16 @@
 ---
+layout: post
 title: 测试文档1
 date: '2023-07-22 21:22:37'
-updated: '2023-09-13 20:33:18'
-excerpt: 本文是一篇测试文章，涵盖了成功、提示信息、警告、错误提示，以及标题、列表、图片等内容。文章为了进行格式测试，包括了各种排版元素的展示，但内容并无实际意义。
+permalink: /post/test-document-1-z24askn.html
+tagline: 本文是一篇测试文章，涵盖了成功、提示信息、警告、错误提示，以及标题、列表、图片等内容。文章为了进行格式测试，包括了各种排版元素的展示，但内容并无实际意义。
 tags:
   - 测试
   - 标签1
   - 标签3
   - hexo
   - 新的
-permalink: /post/test-document-1-z24askn.html
-comments: true
-toc: true
+published: true
 ---
 
 
