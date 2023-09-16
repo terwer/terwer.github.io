@@ -56,15 +56,6 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
         ],
       },
       {
-        text: "文章索引",
-        link: "/archives/",
-        items: [
-          { text: "文章分类", link: "/categories/" },
-          { text: "文章标签", link: "/tags/" },
-          { text: "文章归档", link: "/archives/" },
-        ],
-      },
-      {
         text: "经典书籍",
         link: "#",
         items: [
@@ -74,17 +65,26 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
           },
         ],
       },
+      // {
+      //   text: "求职面试",
+      //   link: "/job/",
+      // },
       {
         text: "心情随笔",
         link: "/ing/",
       },
       {
-        text: "友情链接",
-        link: "/friends/",
+        text: "文章索引",
+        link: "/archives/",
+        items: [
+          { text: "文章分类", link: "/categories/" },
+          { text: "文章标签", link: "/tags/" },
+          { text: "文章归档", link: "/archives/" },
+        ],
       },
       {
-        text: "给我留言",
-        link: "https://blog.terwergreen.com/guestbook.html",
+        text: "友情链接",
+        link: "/friends/",
       },
       { text: "关于我", link: "/about/" },
     ],
