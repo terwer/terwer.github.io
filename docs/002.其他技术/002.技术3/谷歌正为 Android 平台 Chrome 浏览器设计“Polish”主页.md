@@ -19,7 +19,7 @@ permalink: >-
   /post/google-is-designing-polish-homepage-for-the-android-platform-chrome-browser-2aayrv.html
 author:
   name: terwer
-  link: http://localhost:8002/terwer
+  link: https://github.com/terwer
 ---
 该文章介绍了在 Chrome 浏览器中启用的一个新特性，即“enable-surface-polish”，用户可以通过在浏览器中输入特定网址来启用该功能。该特性在 Chrome 的早期版本中以低对比度的方形搜索栏形式出现，而在 Chrome Dev 和 Canary 版本中提供了最完整的版本。
 
