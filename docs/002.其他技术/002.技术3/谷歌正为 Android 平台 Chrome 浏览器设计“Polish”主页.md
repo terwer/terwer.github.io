@@ -1,26 +1,25 @@
 ---
 title: 谷歌正为 Android 平台 Chrome 浏览器设计“Polish”主页
-date: 2023-10-11 19:03:50
-meta: 
-  - 
-    name: keywords
+date: '2023-10-11 19:03:50'
+meta:
+  - name: keywords
     content: 浏览器 Chrome 功能开关 网页浏览 可定制化
-  - 
-    name: description
-    content: 该文章介绍了在 Chrome 浏览器中启用的一个新特性，即“enable-surface-polish”，用户可以通过在浏览器中输入特定网址来启用该功能。该特性在 Chrome 的早期版本中以低对比度的方形搜索栏形式出现，而在 Chrome Dev 和 Canary 版本中提供了最完整的版本。
-tags: 
+  - name: description
+    content: >-
+      该文章介绍了在 Chrome
+      浏览器中启用的一个新特性，即“enable-surface-polish”，用户可以通过在浏览器中输入特定网址来启用该功能。该特性在 Chrome
+      的早期版本中以低对比度的方形搜索栏形式出现，而在 Chrome Dev 和 Canary 版本中提供了最完整的版本。
+tags:
   - 浏览器
   - Chrome
   - 功能开关
   - 网页浏览
   - 可定制化
-permalink: /post/google-is-designing-polish-homepage-for-the-android-platform-chrome-browser-2aayrv.html
-author: 
+permalink: >-
+  /post/google-is-designing-polish-homepage-for-the-android-platform-chrome-browser-2aayrv.html
+author:
   name: terwer
-  link: http://localhost:8002/terwer
-categories: 
-  - 其他技术
-  - 技术3
+  link: https://github.com/terwer
 ---
 该文章介绍了在 Chrome 浏览器中启用的一个新特性，即“enable-surface-polish”，用户可以通过在浏览器中输入特定网址来启用该功能。该特性在 Chrome 的早期版本中以低对比度的方形搜索栏形式出现，而在 Chrome Dev 和 Canary 版本中提供了最完整的版本。
 
