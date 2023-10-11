@@ -16,7 +16,7 @@ tags:
   - 网页浏览
   - 可定制化
 permalink: >-
-  /post/google-is-designing-polish-homepage-for-the-android-platform-chrome-browser-z1lqkcu.html
+  /post/google-is-designing-polish-homepage-for-the-android-platform-chrome-browser-2ntsjq.html
 author:
   name: terwer
   link: http://localhost:8002/terwer
