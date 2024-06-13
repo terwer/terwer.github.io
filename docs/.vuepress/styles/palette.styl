@@ -45,8 +45,8 @@ $rightMenuWidth = 230px // 右侧菜单
 //   // --codeColor: #fff
 //   // codeThemeDark()
 
-// // 深色模式
-// .theme-mode-dark
+ // 深色模式
+//.theme-mode-dark
 //   --bodyBg: rgb(39,39,43)
 //   --mainBg: rgba(30,30,34,1)
 //   --sidebarBg: rgba(30,30,34,.8)
@@ -73,8 +73,26 @@ $rightMenuWidth = 230px // 右侧菜单
 
 /* 自定义样式 */
 .navbar .site-name {
-  max-width: 275px;
+  //max-width: 275px;
+  max-width: 110px;
   overflow: hidden;
   text-overflow: inherit;
   max-height: 40px;
+}
+
+.home-wrapper .banner .banner-conent .hero h1{
+  color: var(--textLightenColor);
+}
+
+
+.theme-mode-light .home-wrapper .banner .banner-conent .hero .description{
+  color: var(--textColor);
+}
+
+.theme-mode-read .home-wrapper .banner .banner-conent .hero .description{
+  color: var(--textColor);
+}
+
+.theme-mode-dark .home-wrapper .banner .banner-conent .hero .description{
+  color: var(--borderColor);
 }
