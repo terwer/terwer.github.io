@@ -26,6 +26,7 @@ urls.txt
 .vercel
 
 docs/_posts/temp.md
+docs/_posts/test.md
 .obsidian/
 *bun
 /docs/.vuepress/config.bundled_*.mjs
