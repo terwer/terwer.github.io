@@ -351,7 +351,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       {
         choosen: "artalk",
         options: {
-          server: "https://talk.terwergreen.com:8003",
+          server: "https://talk.siyuan.wiki",
           site: "远方的灯塔",
           disableEmotion: false,
           disablePicture: true,
