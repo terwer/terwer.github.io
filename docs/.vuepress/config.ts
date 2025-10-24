@@ -89,7 +89,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
       { text: "关于我", link: "/about/" },
     ],
     sidebarDepth: 2, // 侧边栏显示深度，默认1，最大2（显示到h3标题）
-    logo: "https://img1.terwer.space/vdoing-img/logo.png", // 导航栏logo
+    logo: "https://cdn.sa.net/2025/10/24/BLIcKSis65ODeMU.png", // 导航栏logo
     repo: "terwer/terwer.github.io", // 导航栏右侧生成Github链接
     searchMaxSuggestions: 10, // 搜索结果显示最大数
     lastUpdated: "上次更新", // 开启更新时间，并配置前缀文字   string | boolean (取值为git提交时间)
@@ -107,9 +107,9 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     pageStyle: "line", // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
-    bodyBgImg: ["https://img1.terwer.space/vdoing-img/bg.png", "https://img1.terwer.space/vdoing-img/bg2.png", "https://img1.terwer.space/vdoing-img/bg3.png"], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
-    bodyBgImgOpacity: 0.1, // body背景图透明度，选值 0.1~1.0, 默认0.5
-    bodyBgImgInterval: 5, // body多张背景图时的切换间隔, 默认15，单位s
+    bodyBgImg: ["https://cdn.sa.net/2025/10/25/v54N7p9tKT2mUEQ.jpg", "https://cdn.sa.net/2025/10/25/67XrODLow9BZNlj.jpg", "https://cdn.sa.net/2025/10/25/hZLQETs9n5vFwVt.jpg"], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
+    bodyBgImgOpacity: 0.6, // body背景图透明度，选值 0.1~1.0, 默认0.5
+    bodyBgImgInterval: 2, // body多张背景图时的切换间隔, 默认15，单位s
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
     //   '图标地址1',
@@ -139,7 +139,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: "https://img1.terwer.space/vdoing-img/photo.jpg",
+      avatar: "https://cdn.sa.net/2025/10/24/4P9Ouvz2XhSrNgH.png",
       name: "Terwer Green",
       slogan: "一个后端老菜鸟",
     },
@@ -190,7 +190,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
   // 注入到页面<head>中的标签，格式[tagName, { attrName: attrValue }, innerHTML?]
   head: [
-    ["link", { rel: "icon", href: "https://img1.terwer.space/vdoing-img/favicon.ico" }], //favicons，资源放在public文件夹
+    ["link", { rel: "icon", href: "https://cdn.sa.net/2025/10/24/lHwIjSmtLbdaOFT.png" }], //favicons，资源放在public文件夹
     [
       "meta",
       {
