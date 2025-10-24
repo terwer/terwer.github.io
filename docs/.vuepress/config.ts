@@ -107,8 +107,8 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     pageStyle: "line", // 页面风格，可选值：'card'卡片 | 'line' 线（未设置bodyBgImg时才生效）， 默认'card'。 说明：card时背景显示灰色衬托出卡片样式，line时背景显示纯色，并且部分模块带线条边框
 
-    bodyBgImg: ["https://cdn.sa.net/2025/10/25/v54N7p9tKT2mUEQ.jpg", "https://cdn.sa.net/2025/10/25/HgbjyTEvAfW4Dns.png", "https://siyuan.wiki/s/20251024235654-8r9g43r"], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
-    bodyBgImgOpacity: 0.1, // body背景图透明度，选值 0.1~1.0, 默认0.5
+    bodyBgImg: ["https://cdn.sa.net/2025/10/25/v54N7p9tKT2mUEQ.jpg", "https://cdn.sa.net/2025/10/25/67XrODLow9BZNlj.jpg", "https://cdn.sa.net/2025/10/25/hZLQETs9n5vFwVt.jpg"], // body背景大图，默认无。 单张图片 String | 多张图片 Array, 多张图片时隔bodyBgImgInterval切换一张。
+    bodyBgImgOpacity: 0.6, // body背景图透明度，选值 0.1~1.0, 默认0.5
     bodyBgImgInterval: 2, // body多张背景图时的切换间隔, 默认15，单位s
     // titleBadge: false, // 文章标题前的图标是否显示，默认true
     // titleBadgeIcons: [ // 文章标题前图标的地址，默认主题内置图标
