@@ -17,7 +17,7 @@ published: true
 
 
 
-# 掘金V2验证测试
+# 掘金V2验证测试 (已更新)
 
 本文用于验证 siyuan-plugin-publisher V2 在掘金平台的发布链路。
 
@@ -35,4 +35,4 @@ published: true
 
 ## 总结
 
-发布验证完成。
+发布验证完成。（已更新 Jekyll 内容）
